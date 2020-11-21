@@ -1,6 +1,11 @@
-Given an image we need to to try different color spaces which match the montage below:
+image1.png is given as:
 
-% ![img](https://user-images.githubusercontent.com/61081924/99875937-244ea000-2c15-11eb-8061-02d728e9b899.png)
+![shot](https://user-images.githubusercontent.com/61081924/99878028-3126c000-2c24-11eb-8d25-4f8f1308a002.png)
+
+
+We have to try different color spaces to match the montage below:
+
+![img](https://user-images.githubusercontent.com/61081924/99875937-244ea000-2c15-11eb-8061-02d728e9b899.png)
 
 
 % The uppermost left image is in RGB, imread reads a greyscale or color image from the file specified by the string filename.
@@ -26,7 +31,7 @@ montage({RGB,HSV,NTSC,YCbCr}, 'Size', [2 2]);
 
 %HSV CHANNEL MONTAGE:
 
-% ![black](https://user-images.githubusercontent.com/61081924/99877478-50bbe980-2c20-11eb-9e1b-c4583ad3cb07.png)
+![black](https://user-images.githubusercontent.com/61081924/99877478-50bbe980-2c20-11eb-9e1b-c4583ad3cb07.png)
 
 [h,s,v] = imsplit(HSV);
 
