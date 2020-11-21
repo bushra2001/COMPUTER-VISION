@@ -37,7 +37,7 @@ montage({RGB,HSV,NTSC,YCbCr}, 'Size', [2 2]);
 
 %To create a montage of hsv images:
 
-montage({h,s,v,RGB},"BorderSize",10,"BackgroundColor",'w');
+montage({h,s,v,NTSC},"BorderSize",10,"BackgroundColor",'w');
 
 %OTHER COLOR SPACES EXAMPLE:
 
